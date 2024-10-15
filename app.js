@@ -9,7 +9,7 @@ function rollDice() {
     const value = Math.floor(Math.random() * 6) + 1;
     values.push(value);
     images.push(
-      `<img src="imgs/dice${value}.webp" alt="Dice ${value} width="100" height="100">`
+      `<img src="imgs/dice${value}.webp" alt="Dice ${value}" width="100" height="100">`
     );
   }
 
